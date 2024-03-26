@@ -15,7 +15,7 @@ document.getElementById("submitButton").addEventListener("click", function(){
     let lastName = document.getElementById("lastName");
     let email = document.getElementById("email");
     let password = document.getElementById("pwd");
-    
+    // Salam
     userDict["firstName"] = firstName.value;
     userDict["lastName"] = lastName.value;
     userDict["email"] = email.value;
